@@ -18,7 +18,7 @@ api_server = "http://vmc.vmware.com"
 #
 def get_api_key():
     """Pull key from file so I dont have to include it in the code
-       key.txt is a file with the API token in it
+       key.txt is a file with the API token in it, no spaces, or newlines.
     """
     keytext = ''
     try:
